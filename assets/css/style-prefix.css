@@ -2770,7 +2770,7 @@ footer {
     .category-item {
       min-width: -webkit-calc(25% - 22.5px);
       min-width: calc(25% - 22.5px);
-      display: grid;
+      /* display: grid; */
       /* change */
     }
     .category-item-title {
