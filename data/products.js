@@ -470,3 +470,172 @@ export const products = [
     keywords: ["sweaters", "hoodies", "apparel", "mens"],
   },
 ];
+
+
+//! Category-Socks ------------------------------------------------------------------------------------------
+export const socks = [
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67801",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67802",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67803",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67804",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67805",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67806",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67807",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67808",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67809",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67810",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67811",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67812",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67813",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67814",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67815",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+]
