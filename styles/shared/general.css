@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Roboto, Arial;
   color: rgb(33, 33, 33);
@@ -5,7 +10,9 @@ body {
      on all sides. This removes the default margins. */
   margin: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* <p> elements have a default margin on the top
    and bottom. This removes the default margins. */
 p {
