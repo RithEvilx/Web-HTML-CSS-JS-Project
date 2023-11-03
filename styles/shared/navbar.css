@@ -3,7 +3,11 @@ header {
   display: flex;
   justify-content: center;
   background-color: #131921;
-  border: 2px solid #fafafa;
+  border-top: 2px solid #fafafa;
+  box-shadow: 0 2px 3px #333;
+  
+  position: sticky;
+  top: 90px;
 }
 .navbar {
   width: 80%;
@@ -58,4 +62,12 @@ header {
 
 .active {
   color: #febd69 !important;
+}
+.dropdown ul li a:hover {
+  text-decoration: none;
+}
+.logo {
+  background-color: #131921;
+  color: #005e7a;
+  padding-block: 30px;
 }

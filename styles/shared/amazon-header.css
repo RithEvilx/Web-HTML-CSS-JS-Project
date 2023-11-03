@@ -34,13 +34,8 @@
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.header-link:hover {
-  border: 1px solid white;
-}
-
 .amazon-logo {
-  width: 100px;
-  margin-top: 5px;
+  width: 160px;
 }
 
 .amazon-mobile-logo {

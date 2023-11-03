@@ -4,7 +4,13 @@
 /* Container */
 .container-products-grid {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container-products-grid h1 {
+  padding: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .products-grid {
@@ -21,6 +27,8 @@
        repeat(...) is a special property that works with
        display: grid; */
   grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+  margin-bottom: 80px;
 }
 
 /* @media is used to create responsive design (making the
@@ -77,8 +85,8 @@
   padding-left: 25px;
   padding-right: 25px;
 
-  border-right: 1px solid rgb(231, 231, 231);
-  border-bottom: 1px solid rgb(231, 231, 231);
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 8px;
 
   display: flex;
   flex-direction: column;
