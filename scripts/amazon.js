@@ -3,19 +3,19 @@ import { products } from "../data/products.js";
 import { formatCurrency } from "./utility/money.js";
 
 let productsHTML = "";
-products.forEach((product) => {
+products.slice(0,60).forEach((product) => {
   productsHTML += `
     <div class="product-container">
     <div class="product-image-container">
       <img class="product-image"
-        src="${product.image}">
+        src="../${product.image}">
     </div>
     <div class="product-name limit-text-to-2-lines">
       ${product.name}
     </div>
     <div class="product-rating-container">
       <img class="product-rating-stars"
-        src="images/ratings/rating-${product.rating.stars * 10}.png">
+        src="../images/ratings/rating-${product.rating.stars * 10}.png">
       <div class="product-rating-count link-primary">
         ${product.rating.count}
       </div>

@@ -1,27 +1,27 @@
 import { cart, addToCart, calculateCartQuantity } from "../data/cart.js";
-import { socks } from "../data/products.js";
+import { products } from "../data/products.js";
 import { formatCurrency } from "./utility/money.js";
 
 let productsHTML = "";
-socks.forEach((sock) => {
+products.slice(1,5).forEach((product) => {
   productsHTML += `
     <div class="product-container">
     <div class="product-image-container">
       <img class="product-image"
-        src="../${sock.image}">
+        src="../${product.image}">
     </div>
     <div class="product-name limit-text-to-2-lines">
-      ${sock.name}
+      ${product.name}
     </div>
     <div class="product-rating-container">
       <img class="product-rating-stars"
-        src="../images/ratings/rating-${sock.rating.stars * 10}.png">
+        src="../images/ratings/rating-${product.rating.stars * 10}.png">
       <div class="product-rating-count link-primary">
-        ${sock.rating.count}
+        ${product.rating.count}
       </div>
     </div>
     <div class="product-price">
-      $${formatCurrency(sock.priceCents)}
+      $${formatCurrency(product.priceCents)}
     </div>
     <div class="product-quantity-container">
       <select>
@@ -43,7 +43,7 @@ socks.forEach((sock) => {
       Added
     </div>
     <button class="add-to-cart-button button-primary js-add-to-cart" data-product-id="${
-      sock.id
+      product.id
     }">
       Add to Cart
     </button>
@@ -66,8 +66,8 @@ document.querySelector(".js-cart-quantity").innerHTML = cartQuantity;
 // Add to Cart Button
 document.querySelectorAll(".js-add-to-cart").forEach((button) => {
   button.addEventListener("click", () => {
-    const sockID = button.dataset.sockID;
-    addToCart(sockID);
+    const productId = button.dataset.productId;
+    addToCart(productId);
     updateCartQuantity();
   });
 });
