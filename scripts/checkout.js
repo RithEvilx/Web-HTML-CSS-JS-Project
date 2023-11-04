@@ -6,6 +6,7 @@ import {
 } from "../data/cart.js";
 import { products } from "../data/products.js";
 import { formatCurrency } from "./utility/money.js";
+import {renderPaymentSummary} from './checkout/paymentSummary.js';
 
 let cartSummaryHTML = "";
 cart.forEach((cartItem) => {
@@ -170,3 +171,4 @@ document.querySelectorAll(".js-save-link").forEach((link) => {
     updateCartQuantity();
   });
 });
+renderPaymentSummary();
