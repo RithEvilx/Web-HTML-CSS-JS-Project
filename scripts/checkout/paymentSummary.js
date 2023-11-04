@@ -1,7 +1,7 @@
-import {cart} from '../../data/cart.js';
-import {getProduct} from '../../data/products.js';
-import {getDeliveryOption} from '../../data/deliveryOptions.js';
-import {formatCurrency} from '../utility/money.js';
+import { cart } from "../../data/cart.js";
+import { getProduct } from "../../data/products.js";
+import { getDeliveryOption } from "../../data/deliveryOptions.js";
+import { formatCurrency } from "../utility/money.js";
 
 export function renderPaymentSummary() {
   let productPriceCents = 0;
@@ -26,28 +26,30 @@ export function renderPaymentSummary() {
     <div class="payment-summary-row">
       <div>Shipping &amp; handling:</div>
       <div class="payment-summary-money">
-        $${formatCurrency(productPriceCents+500)}
+        $${formatCurrency(productPriceCents + 499)}
       </div>
     </div>
 
     <div class="payment-summary-row subtotal-row">
       <div>Total before tax:</div>
       <div class="payment-summary-money">
-        $${formatCurrency(productPriceCents+500)}
+        $${formatCurrency(productPriceCents + 499)}
       </div>
     </div>
 
     <div class="payment-summary-row">
       <div>Estimated tax (10%):</div>
       <div class="payment-summary-money">
-        $${formatCurrency((productPriceCents+500)*0.1)}
+        $${formatCurrency((productPriceCents + 499) * 0.1)}
       </div>
     </div>
 
     <div class="payment-summary-row total-row">
       <div>Order total:</div>
       <div class="payment-summary-money">
-        $${formatCurrency((productPriceCents+500)+(productPriceCents+500)*0.1)}
+        $${formatCurrency(
+          productPriceCents + 499 + (productPriceCents + 499) * 0.1
+        )}
       </div>
     </div>
 
@@ -56,6 +58,5 @@ export function renderPaymentSummary() {
     </button>
   `;
 
-  document.querySelector('.js-payment-summary')
-    .innerHTML = paymentSummaryHTML;
+  document.querySelector(".js-payment-summary").innerHTML = paymentSummaryHTML;
 }

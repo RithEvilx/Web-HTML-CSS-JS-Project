@@ -6,7 +6,7 @@ import {
 } from "../data/cart.js";
 import { products } from "../data/products.js";
 import { formatCurrency } from "./utility/money.js";
-import {renderPaymentSummary} from './checkout/paymentSummary.js';
+import { renderPaymentSummary } from "./checkout/paymentSummary.js";
 
 let cartSummaryHTML = "";
 cart.forEach((cartItem) => {
@@ -72,7 +72,7 @@ cart.forEach((cartItem) => {
               Tuesday, June 21
             </div>
             <div class="delivery-option-price">
-              FREE Shipping
+              $4.99 - Shipping
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ cart.forEach((cartItem) => {
               Wednesday, June 15
             </div>
             <div class="delivery-option-price">
-              $4.99 - Shipping
+              $6.99 - Shipping
             </div>
           </div>
         </div>
@@ -167,7 +167,6 @@ document.querySelectorAll(".js-save-link").forEach((link) => {
       `.js-quantity-label-${productId}`
     );
     quantityLabel.innerHTML = newQuantity;
-
     updateCartQuantity();
   });
 });
