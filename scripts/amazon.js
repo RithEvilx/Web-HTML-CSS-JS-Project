@@ -3,7 +3,7 @@ import { products } from "../data/products.js";
 import { formatCurrency } from "./utility/money.js";
 
 let productsHTML = "";
-products.slice(0,60).forEach((product) => {
+products.slice(0,42).forEach((product) => {
   productsHTML += `
     <div class="product-container">
     <div class="product-image-container">

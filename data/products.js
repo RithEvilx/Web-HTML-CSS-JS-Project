@@ -469,11 +469,6 @@ export const products = [
     priceCents: 2400,
     keywords: ["sweaters", "hoodies", "apparel", "mens"],
   },
-];
-
-
-//! Category-Socks ------------------------------------------------------------------------------------------
-export const socks = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb67801",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
@@ -572,7 +567,8 @@ export const socks = [
     },
     priceCents: 1090,
     keywords: ["socks", "sports", "apparel"],
-  },  {
+  },
+  {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb67810",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
     name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
@@ -638,4 +634,37 @@ export const socks = [
     priceCents: 1090,
     keywords: ["socks", "sports", "apparel"],
   },
-]
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67816",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67817",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb67818",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87,
+    },
+    priceCents: 1090,
+    keywords: ["socks", "sports", "apparel"],
+  },
+];

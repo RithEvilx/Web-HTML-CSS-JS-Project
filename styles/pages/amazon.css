@@ -45,7 +45,7 @@
    less, we will divide the grid into 6 columns. */
 @media (max-width: 1600px) {
   .products-grid {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
