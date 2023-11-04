@@ -469,6 +469,7 @@ export const products = [
     priceCents: 2400,
     keywords: ["sweaters", "hoodies", "apparel", "mens"],
   },
+  //! Socks_Category(42,60)----------------------------------------------------------------------------------
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb67801",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
