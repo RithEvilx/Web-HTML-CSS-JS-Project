@@ -1,9 +1,9 @@
-import { cart, addToCart, calculateCartQuantity } from "../data/cart.js";
-import { products } from "../data/products.js";
-import { formatCurrency } from "./utility/money.js";
+import { cart, addToCart, calculateCartQuantity } from "../../data/cart.js";
+import { products } from "../../data/products.js";
+import { formatCurrency } from "../utility/money.js";
 
 let productsHTML = "";
-products.slice(42,60).forEach((product) => {
+products.slice(60, 78).forEach((product) => {
   productsHTML += `
     <div class="product-container">
     <div class="product-image-container">

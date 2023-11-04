@@ -37,6 +37,7 @@ header {
   top: 190%;
   background-color: #131921ed;
   display: none;
+  z-index: 100;
 }
 .navbar .dropdown-content {
   display: flex;
