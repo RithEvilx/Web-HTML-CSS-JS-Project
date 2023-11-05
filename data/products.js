@@ -1912,5 +1912,202 @@ export const products = [
     keywords: ["coffeemakers", "kitchen", "appliances"],
   },
   //! Towels_Category(132,150)----------------------------------------------------------------------------------
-
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a01",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "8a53b080-6d40-4a65-ab26-b24ecf700b02",
+    image: "images/products/cotton-bath-towels-teal.webp",
+    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    rating: {
+      stars: 4.5,
+      count: 93,
+    },
+    priceCents: 2110,
+    keywords: ["bathroom", "home", "towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a03",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "8a53b080-6d40-4a65-ab26-b24ecf700b05",
+    image: "images/products/cotton-bath-towels-teal.webp",
+    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    rating: {
+      stars: 4.5,
+      count: 93,
+    },
+    priceCents: 2110,
+    keywords: ["bathroom", "home", "towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a06",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a07",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "8a53b080-6d40-4a65-ab26-b24ecf700b08",
+    image: "images/products/cotton-bath-towels-teal.webp",
+    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    rating: {
+      stars: 4.5,
+      count: 93,
+    },
+    priceCents: 2110,
+    keywords: ["bathroom", "home", "towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a09",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a10",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "8a53b080-6d40-4a65-ab26-b24ecf700b11",
+    image: "images/products/cotton-bath-towels-teal.webp",
+    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    rating: {
+      stars: 4.5,
+      count: 93,
+    },
+    priceCents: 2110,
+    keywords: ["bathroom", "home", "towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a12",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a13",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "8a53b080-6d40-4a65-ab26-b24ecf700b14",
+    image: "images/products/cotton-bath-towels-teal.webp",
+    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    rating: {
+      stars: 4.5,
+      count: 93,
+    },
+    priceCents: 2110,
+    keywords: ["bathroom", "home", "towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a15",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a16",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
+  {
+    id: "8a53b080-6d40-4a65-ab26-b24ecf700ba17",
+    image: "images/products/cotton-bath-towels-teal.webp",
+    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    rating: {
+      stars: 4.5,
+      count: 93,
+    },
+    priceCents: 2110,
+    keywords: ["bathroom", "home", "towels"],
+  },
+  {
+    id: "77919bbe-0e56-475b-adde-4f24dfed3a18",
+    image: "images/products/luxury-tower-set-6-piece.jpg",
+    name: "Luxury Towel Set - Graphite Gray",
+    rating: {
+      stars: 4.5,
+      count: 144,
+    },
+    priceCents: 3599,
+    keywords: ["bathroom", "washroom", "restroom", "towels", "bath towels"],
+  },
 ];
